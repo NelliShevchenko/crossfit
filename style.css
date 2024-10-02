@@ -287,7 +287,7 @@ h6 {
     line-height: 1;
     color: transparent;
     -webkit-text-stroke: 1px var(--color-light-gray);
-    text-stroke: 1px var(--color-light-gray);
+    
 }
 
 .backdrop-title.centered::after {
@@ -376,9 +376,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
-    -moz-appearance: textfield;
-}
+
 
 .header {
     display: flex;
@@ -427,16 +425,16 @@ input[type=number] {
 
 .header-burger-button {
     display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    row-gap: 4px;
-    width: 40px;
-    aspect-ratio: 1;
-    padding-left: 8px;
-    color: var(--color-light);
-    background-color: transparent;
-    border: var(--border);
-    border-radius: 50%;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 4px;
+        width: 40px;
+        aspect-ratio: 1;
+        padding-left: 8px;
+        color: var(--color-light);
+        background-color: transparent;
+        border: var(--border);
+        border-radius: 50%;
 }
 
 .header-burger-button:hover {
@@ -447,6 +445,6 @@ input[type=number] {
 .header-burger-button-line {
     width: 6px;
     height: 1px;
-    background-color: currentColor;
+    background-color: var(--color-light);
     box-shadow: 16px 0 0 currentColor;
 }
